@@ -1,0 +1,137 @@
+.header {
+  background-image: url("Background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+button {
+  background-color: black;
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button span {
+  font-weight: bold;
+  color: white;
+}
+
+/* Smartphone view */
+@media (max-width: 575px) {
+  .header {
+    padding: 12% 7% 0% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header__tablet {
+    display: none;
+  }
+  .header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-logo {
+    height: 10%;
+    width: auto;
+    max-height: 30px;
+  }
+  .img-hamburger {
+    width: 5%;
+    height: auto;
+    min-width: 20px;
+  }
+  h1 {
+    font-size: 320%;
+    font-weight: 800;
+    line-height: 65px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5px;
+  }
+  .header__description {
+    text-align: center;
+    font-size: 110%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  button {
+    font-size: 110%;
+    padding: 20px 20px;
+  }
+}
+
+/* and (max-width: 1024px) */
+/* Tablet view and computer screen*/
+@media (min-width: 576px) {
+  .header {
+    padding: 2% 9% 0% 9%;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-hamburger {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-logo {
+    height: 10%;
+    width: auto;
+    max-height: 30px;
+  }
+  .header__tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 100%;
+  }
+  li {
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+  }
+  .header__tablet img {
+    width: 80%;
+    height: auto;
+  }
+  .header__nav-button {
+    font-size: 90%;
+    padding: 10px 10px;
+  }
+  h1 {
+    font-size: 320%;
+    font-weight: 800;
+    line-height: 65px;
+    text-align: center;
+    padding: 0 10% 0 10%;
+  }
+  .header__description-snipper {
+    text-align: center;
+    font-size: 110%;
+    margin: 0 20px 25px 20px;
+  }
+  .header__button {
+    width: 50%;
+    font-size: 110%;
+    padding: 20px 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .header__description-credit {
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 40px;
+  }
+}
+
+/* Computer screen view
+@media (min-width: 1024px) {
+  .img-hamburger {
+    display: none;
+  }
+} */

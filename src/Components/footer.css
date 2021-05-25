@@ -1,0 +1,27 @@
+.footer {
+  margin: 5% 7% 5% 7%;
+}
+
+/* Smartphone view  */
+@media (max-width: 575px) {
+  .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* Tablet view  and computer screen*/
+@media (min-width: 576px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-copyright {
+    display: flex;
+  }
+  .footer-copyright p {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}
