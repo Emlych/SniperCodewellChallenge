@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/SniperCodewellChallenge/static/css/main.83df3a29.chunk.css",
-    "main.js": "/SniperCodewellChallenge/static/js/main.e322144a.chunk.js",
-    "main.js.map": "/SniperCodewellChallenge/static/js/main.e322144a.chunk.js.map",
+    "main.css": "/SniperCodewellChallenge/static/css/main.53e3e0aa.chunk.css",
+    "main.js": "/SniperCodewellChallenge/static/js/main.1a1623eb.chunk.js",
+    "main.js.map": "/SniperCodewellChallenge/static/js/main.1a1623eb.chunk.js.map",
     "runtime-main.js": "/SniperCodewellChallenge/static/js/runtime-main.1db7f9b7.js",
     "runtime-main.js.map": "/SniperCodewellChallenge/static/js/runtime-main.1db7f9b7.js.map",
     "static/js/2.54a69e04.chunk.js": "/SniperCodewellChallenge/static/js/2.54a69e04.chunk.js",
     "static/js/2.54a69e04.chunk.js.map": "/SniperCodewellChallenge/static/js/2.54a69e04.chunk.js.map",
     "index.html": "/SniperCodewellChallenge/index.html",
-    "static/css/main.83df3a29.chunk.css.map": "/SniperCodewellChallenge/static/css/main.83df3a29.chunk.css.map",
+    "static/css/main.53e3e0aa.chunk.css.map": "/SniperCodewellChallenge/static/css/main.53e3e0aa.chunk.css.map",
     "static/js/2.54a69e04.chunk.js.LICENSE.txt": "/SniperCodewellChallenge/static/js/2.54a69e04.chunk.js.LICENSE.txt",
     "static/media/header.css": "/SniperCodewellChallenge/static/media/Background.f8bd71ca.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1db7f9b7.js",
     "static/js/2.54a69e04.chunk.js",
-    "static/css/main.83df3a29.chunk.css",
-    "static/js/main.e322144a.chunk.js"
+    "static/css/main.53e3e0aa.chunk.css",
+    "static/js/main.1a1623eb.chunk.js"
   ]
 }
