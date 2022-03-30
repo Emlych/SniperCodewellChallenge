@@ -1,3 +1,4 @@
+/* Mobile and tablet view */
 @media (max-width: 1024px) {
   .main {
     padding: 7% 7% 0% 7%;
@@ -28,6 +29,7 @@
   }
 }
 
+/* Desktop view */
 @media (min-width: 1024px) {
   .main {
     display: flex;

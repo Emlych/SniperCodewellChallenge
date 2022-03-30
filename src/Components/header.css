@@ -1,9 +1,39 @@
 .header {
-  background-image: url("Background.png");
+  background: url("Background.png") no-repeat fixed bottom;
+  background-size: cover;
+  /* background-image: url("Background.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
+  background-size: cover; */
+  display: flex;
+  flex-direction: column;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.img-logo {
+  height: 10%;
+  width: auto;
+  max-height: 30px;
+}
+h1 {
+  font-size: 320%;
+  font-weight: 800;
+  line-height: 65px;
+  text-align: center;
+  padding: 0 10%;
+}
+.header__description {
+  text-align: center;
+  font-size: 110%;
+}
+#snipper {
+  margin: 0 20px 25px 20px;
+}
+#credit {
+  margin-bottom: 40px;
 }
 button {
   background-color: black;
@@ -11,6 +41,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 110%;
 }
 button span {
   font-weight: bold;
@@ -21,21 +52,10 @@ button span {
 @media (max-width: 575px) {
   .header {
     padding: 12% 7% 0% 7%;
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
   }
   .header__tablet {
     display: none;
-  }
-  .header nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  .img-logo {
-    height: 10%;
-    width: auto;
-    max-height: 30px;
   }
   .img-hamburger {
     width: 5%;
@@ -43,46 +63,29 @@ button span {
     min-width: 20px;
   }
   h1 {
-    font-size: 320%;
-    font-weight: 800;
-    line-height: 65px;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
     margin-bottom: 5px;
   }
   .header__description {
-    text-align: center;
-    font-size: 110%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
+  }
+  #credit {
+    margin-top: 20px;
   }
   button {
-    font-size: 110%;
-    padding: 20px 20px;
+    padding: 20px;
   }
 }
 
-/* and (max-width: 1024px) */
 /* Tablet view and computer screen*/
 @media (min-width: 576px) {
   .header {
     padding: 2% 9% 0% 9%;
-    display: flex;
-    flex-direction: column;
   }
   .img-hamburger {
     display: none;
   }
-  nav {
-    display: flex;
-    justify-content: space-between;
+  .header nav {
     align-items: center;
-  }
-  .img-logo {
-    height: 10%;
-    width: auto;
-    max-height: 30px;
   }
   .header__tablet {
     display: flex;
@@ -103,35 +106,9 @@ button span {
     font-size: 90%;
     padding: 10px 10px;
   }
-  h1 {
-    font-size: 320%;
-    font-weight: 800;
-    line-height: 65px;
-    text-align: center;
-    padding: 0 10% 0 10%;
-  }
-  .header__description-snipper {
-    text-align: center;
-    font-size: 110%;
-    margin: 0 20px 25px 20px;
-  }
   .header__button {
     width: 50%;
-    font-size: 110%;
     padding: 20px 0px;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  .header__description-credit {
-    text-align: center;
-    font-size: 110%;
-    margin-bottom: 40px;
+    margin: 0 25%;
   }
 }
-
-/* Computer screen view
-@media (min-width: 1024px) {
-  .img-hamburger {
-    display: none;
-  }
-} */

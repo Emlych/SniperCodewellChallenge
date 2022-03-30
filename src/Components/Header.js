@@ -5,10 +5,17 @@ function Header() {
   return (
     <div className="header">
       <nav>
-        <img className="img-logo" src="./Assets/Logo.svg" alt="Snipper Logo" />
+        <img
+          className="img-logo"
+          src="/SniperCodewellChallenge/Assets/Logo.svg"
+          alt="Snipper Logo"
+        />
         <ul className="header__tablet">
           <li>
-            <img src="./Assets/Search Icon.svg" alt="search icon" />
+            <img
+              src="/SniperCodewellChallenge/Assets/Search Icon.svg"
+              alt="search icon"
+            />
           </li>
           <li>
             <p>Sign in</p>
@@ -22,20 +29,25 @@ function Header() {
 
         <img
           className="img-hamburger"
-          src="./Assets/Hamburger Menu.svg"
+          src="/SniperCodewellChallenge/Assets/Hamburger Menu.svg"
           alt="Hamburger icon"
         />
       </nav>
       <h1>Gorgeous Code Snippets</h1>
-      <p className="header__description-snipper">
+      <p className="header__description" id="snipper">
         With Snipper, create fully customizable code snippets in a matter of
         seconds right from your browser.
       </p>
       <button className="header__button">
         <span>Get started</span> - it's free
       </button>
-      <p className="header__description-credit">No credit card required.</p>
-      <img src="./Assets/Snippet Image.png" alt="Snippet of code" />
+      <p className="header__description" id="credit">
+        No credit card required.
+      </p>
+      <img
+        src="/SniperCodewellChallenge/Assets/Snippet Image.png"
+        alt="Snippet of code"
+      />
     </div>
   );
 }

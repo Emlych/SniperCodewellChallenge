@@ -4,7 +4,10 @@ import "./main.css";
 function Main() {
   return (
     <div className="main">
-      <img src="./Assets/Customizable Image.png" alt="customizable snippet" />
+      <img
+        src="/SniperCodewellChallenge/Assets/Customizable Image.png"
+        alt="customizable snippet"
+      />
       <div className="main__container">
         <h2>A fully customizable code snippet editor</h2>
         <p>
